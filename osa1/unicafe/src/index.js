@@ -10,22 +10,25 @@ const Statistics = (props) => {
 			<p>No feedback given</p>
 		)
 	return (
-      	<div>
-        	<Statistic text="good" value={props.good} />
-        	<Statistic text="neutral" value={props.neutral} />
-        	<Statistic text="bad" value={props.bad} />
-        	<Statistic text="all" value={all} />
-        	<Statistic text="average" value={average} />
-        	<Statistic text="positive" value={positive} />
-      	</div>
+      	<table>
+          <tbody>
+          	<Statistic text="good" value={props.good} />
+          	<Statistic text="neutral" value={props.neutral} />
+          	<Statistic text="bad" value={props.bad} />
+          	<Statistic text="all" value={all} />
+          	<Statistic text="average" value={average} />
+          	<Statistic text="positive" value={positive} />
+          </tbody>
+      	</table>
 	)
 }
 
 const Statistic = ({text, value}) => {
 	return (
-		<div>
-			{text} {value}<br /> 
-		</div>
+		<tr>
+			<td>{text}</td>
+      <td>{value}</td> 
+		</tr>
 	)
 }
 
