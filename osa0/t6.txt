@@ -1,0 +1,6 @@
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+palvelin-->selain: Status 201
+
+note over selain:
+Selain pysyy samalla sivulla
+end note

@@ -1,0 +1,7 @@
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
+palvelin-->selain: HTML-sivu
+
+note over selain:
+Sivun sisältöä manipuloidaan
+selaimessa JavaScriptillä
+end note
